@@ -1,0 +1,75 @@
+*, html, body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    height: 80px;
+    background-color: darkslategrey;
+    font-size: 20px;
+    box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    padding: 10px;
+}
+.firstname {
+    color: aliceblue;
+    font-weight: 700;
+}
+h3 {
+    color: crimson;
+    padding-left: 4px;
+}
+
+.nav-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.nav-icon > li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.nav-icon > li > a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-icon > li > img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.nav-icon > li > img:hover {
+    height: 60px;
+    width: 60px;
+    border-radius: 60%;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.nav-icon > li > a:hover {
+    color: crimson;
+    transition: all .3s ease-in-out;
+}
